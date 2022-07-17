@@ -6,7 +6,11 @@ Um parágrafo da descrição do projeto vai aqui
 
 ## 🚀 Começando
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+Defininos as seguintes camandas: 
+
+- Raw: Tados brutos
+- Trusted: Dados tratados
+- Refined: Dados tratados e modelados
 
 Consulte **Implantação** para saber como implantar o projeto.
 
