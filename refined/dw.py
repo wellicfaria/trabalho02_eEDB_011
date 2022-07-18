@@ -1,1 +1,0 @@
-#definicao do DW e tratamentoo

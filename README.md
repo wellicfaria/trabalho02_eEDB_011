@@ -14,6 +14,7 @@ Defininos as seguintes camandas:
 - Data: Pasta para armazenar dados
 -- Source: Dados para extração
 -- Sink: Para de escrita dos códigos
+-- stage: Pasta temporaria para processamento raw
 
 Consulte **Implantação** para saber como implantar o projeto.
 
