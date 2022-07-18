@@ -8,10 +8,14 @@ TABLE_MYSQL = ''
 spark = SparkSession.builder.appName("TRUSTED_CSV").config("spark.jars", "/workspaces/trabalho02_eEDB_011/drives/mysql-connector-java-8.0.22.jar").getOrCreate()
 
 def write_mysql(df,table):
-
-    url = 'jdbc:mysql://database-1.cywcahoqjr33.us-east-1.rds.amazonaws.com:3306/DW'
-    password = ''
+    #Vitor
+    url = 'jdbc:mysql://database-1.cxcajzdhilck.us-east-1.rds.amazonaws.com:3306/DW'
     user = 'admin'
+    password = 'admin123!'
+    #Rodrigo
+    #url = 'jdbc:mysql://database-1.cywcahoqjr33.us-east-1.rds.amazonaws.com:3306/DW'
+    #user = 'admin'
+    #password = 'rodrigo123!'
 
 #spark.read.option("url", url).option("driver", "com.mysql.jdbc.Driver").option("query", "select * from dm_categoria").option("user", user).option("password", password).load()
 
