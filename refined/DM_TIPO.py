@@ -9,14 +9,21 @@ spark = SparkSession.builder.appName("TRUSTED_CSV").config("spark.jars", "/works
 
 def write_mysql(df,table):
 
-    url = 'database-1.cywcahoqjr33.us-east-1.rds.amazonaws.com'
+    url = 'jdbc:mysql://database-1.cywcahoqjr33.us-east-1.rds.amazonaws.com:3306/DW'
     password = ''
-    user = ''
+    user = 'admin'
 
-    df.write.mode('overwrite').format("jdbc").option("url", url) \
-    .option("driver", "com.mysql.jdbc.Driver").option("dbtable", table) \
-    .option("user", user).option("password", password).load()
+#spark.read.option("url", url).option("driver", "com.mysql.jdbc.Driver").option("query", "select * from dm_categoria").option("user", user).option("password", password).load()
 
+
+jdbcDF = spark.read \
+    .format("jdbc") \
+    .option("driver", "com.mysql.jdbc.Driver") \
+    .option("url", url) \
+    .option("dbtable", "DW.DM_CATEGORIA") \
+    .option("user", user) \
+    .option("password", password) \
+    .load()
 
 spark.read.parquet(PATH_TRUSTED).createOrReplaceTempView('file_csv')
 
