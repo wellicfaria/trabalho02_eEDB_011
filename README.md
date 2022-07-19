@@ -83,7 +83,7 @@ Utilizando o grafana e acessando o database local, tem-se:
 
 ![Grafana](/data/images/Dash.png)
 
-Para configurar o grafana utiliza-se 'grafana_dashboard/JSON_GRAFANA.json'
+Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`
 
 ### 🛠️ Construído com
 
