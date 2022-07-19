@@ -8,13 +8,13 @@ O trabalho consiste em ingerir dados de um CSV e uma API utilizando *python*, cr
 
 Define-se as seguintes camadas: 
 
-- 'Raw': Pasta de Códigos para dados brutos
-- 'Trusted': Pasta de Códigos para Dados tratados
-- 'Refined': Pasta de Códigos para Dados Dados tratados e modelados
-- 'Data': Pasta para armazenar dados
-- 'Source': Dados para extração
-- 'Sink': Para de escrita dos códigos
-- 'Stage': Pasta temporaria para processamento raw
+- `Raw`: Pasta de Códigos para dados brutos
+- `Trusted`: Pasta de Códigos para Dados tratados
+- `Refined`: Pasta de Códigos para Dados Dados tratados e modelados
+- `Data`: Pasta para armazenar dados
+- `Source`: Dados para extração
+- `Sink`: Para de escrita dos códigos
+- `Stage`: Pasta temporaria para processamento raw
 
 Consulte **Implantação** para saber como implantar o projeto.
 
