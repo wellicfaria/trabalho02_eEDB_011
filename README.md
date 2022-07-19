@@ -18,23 +18,20 @@ Define-se as seguintes camadas:
 
 Consulte **Implantação** para saber como implantar o projeto.
 
-### 📋 Requerimentos
+### 📋 Etapas do projeto
 
-De que coisas você precisa para instalar o software e como instalá-lo?
 
-```
-        Leitura das Fontes:
-            - Leitura de um csv
-                - Escreve na RAW 
-            - Leitura de uma API
-                 - Escreve na RAW
-        Limpar os dados:
-            - Le os dados das RAW, escreve na  pasta TRUSTED fazendo a LIMPEZA DOS DADOS.
-        Consumo:
-            - Do TRUSTED, se insere no banco de dados realizando modelagem(star schema). Sendo categoriazado como refined, modelo STAR SCHEMA em SQL no banco nomeado como DW, 
-        Camanda de Visualização: 
-            - 3 gráficos desenhados no grafana.  
-```
+1. Leitura das Fontes:
+    - Leitura de um csv:
+        - Escreve na RAW.
+    - Leitura de uma API:
+        - Escreve na RAW.
+2. Limpar os dados:
+    - Lê os dados das RAW, escreve na pasta TRUSTED fazendo a LIMPEZA DOS DADOS.
+3. Consumo:
+    - Do TRUSTED, se insere no banco de dados realizando modelagem (*star schema*). Sendo categoriazado como refined, modelo STAR SCHEMA em SQL no banco nomeado como DW.
+4. Camanda de Visualização: 
+    - 3 gráficos desenhados no Grafana.
 
 ### 🔧 Instalação
 
