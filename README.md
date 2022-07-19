@@ -62,8 +62,26 @@ Explicar como executar os testes automatizados para este sistema.
 
 Explique que eles verificam esses testes e porquê.
 
+Banco MYSQL
+
 ```
-Dar exemplos
+docker pull mysql
+
+docker run --name db_mysql --expose=3306 -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=DW -e MYSQL_USER=admin -e MYSQL_PASSWORD=123456 mysql:latest
+
+Pegar o IP: 
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' db_mysql
+
+Alterar o arquivo refined/util/dbmysql.py com ip do banco, se necessário. 
+
+```
+
+Acessando do banco para fazer SQL: 
+Senha=123456
+```
+docker exec -it  db_mysql bash
+
+mysql -uroot -p
 ```
 
 ### ⌨️ E testes de estilo de codificação
