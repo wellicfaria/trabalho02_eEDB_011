@@ -76,11 +76,10 @@ mysql -uroot -p
 
 ### 🔩 Dashboard
 
-Utilizando o grafana e acessando o database local, tem-se:
+Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`.
+Utilizando o grafana e acessando o *database* local, tem-se:
 
 ![Grafana](/data/images/Dash.png)
-
-Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`
 
 ### 🛠️ Construído com
 
@@ -88,7 +87,7 @@ Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`
 * [Python](https://www.python.org/) - Linhas de código utilizado para programação;
 * [PySpark](https://spark.apache.org/docs/latest/api/python/) - Utilizado para ETL dos dados;
 * [MySQL](https://www.mysql.com/) - Utilizado para ETL dos dados;
-* [Grafana](https://grafana.com/) - Programa para desenvolvimento dos dashboards;
+* [Grafana](https://grafana.com/) - Programa para desenvolvimento dos *dashboards*;
 
 ### ✒️ Autores
 
