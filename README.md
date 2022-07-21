@@ -74,6 +74,8 @@ docker exec -it  db_mysql bash
 mysql -uroot -p
 ```
 
+![Docker](/data/images/docker.png)
+
 ### 🔩 Dashboard
 
 Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`.
