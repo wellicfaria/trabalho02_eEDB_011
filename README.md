@@ -18,7 +18,7 @@ Define-se as seguintes camadas:
 
 Consulte **Implantação** para saber como implantar o projeto.
 
-### 📋 Etapas do projeto
+## 📋 Etapas do projeto
 
 
 1. Leitura das Fontes:
@@ -33,7 +33,7 @@ Consulte **Implantação** para saber como implantar o projeto.
 4. Camanda de Visualização: 
     - 3 gráficos desenhados no Grafana.
 
-### 🔧 Instalação
+## 🔧 Instalação
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
@@ -63,7 +63,7 @@ Executar:
 ```
 
 
-### 🔩 Análise dos testes de ponta a ponta
+## 🔩 Análise dos testes de ponta a ponta
 
 Acessando do banco para fazer SQL: 
 Senha = 123456
@@ -74,16 +74,17 @@ docker exec -it  db_mysql bash
 mysql -uroot -p
 ```
 
-![Docker](/data/images/docker.png)
+<img src="./data/images/docker.png" width="840" height="465">
 
-### 🔩 Dashboard
+
+## 🔩 Dashboard
 
 Para configurar o grafana utiliza-se `grafana_dashboard/JSON_GRAFANA.json`.
 Utilizando o grafana e acessando o *database* local, tem-se:
 
 ![Grafana](/data/images/Dash.png)
 
-### 🛠️ Construído com
+## 🛠️ Construído com
 
 * [Docker](https://www.docker.com/) - Utilizado para repositório
 * [Python](https://www.python.org/) - Linhas de código utilizado para programação;
@@ -91,7 +92,7 @@ Utilizando o grafana e acessando o *database* local, tem-se:
 * [MySQL](https://www.mysql.com/) - Utilizado para ETL dos dados;
 * [Grafana](https://grafana.com/) - Programa para desenvolvimento dos *dashboards*;
 
-### ✒️ Autores
+## ✒️ Autores
 
 * [Rodrigo Vitorino](https://github.com/digaumlv)
 * [Thais Nabe](https://github.com/thaisnabe)
