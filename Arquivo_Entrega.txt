@@ -1,0 +1,11 @@
+Alunos:
+
+Vitor Marques
+Wellington Cassio Faria
+Rodrigo Vitorino
+Thais Nabe
+Wesley Lourenço Barbosa
+
+Repositório:
+
+https://github.com/wellicfaria/trabalho02_eEDB_011
